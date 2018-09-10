@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DDComponentsKit_Example' do
+  pod 'DDComponentsKit', :path => '../'
+
+  target 'DDComponentsKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
