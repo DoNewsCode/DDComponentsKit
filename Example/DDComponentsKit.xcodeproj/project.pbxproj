@@ -24,6 +24,19 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		8D739B175AA50C003BDE7FF6 /* Pods_DDComponentsKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EF235CC976F8622B4EBFB9D /* Pods_DDComponentsKit_Tests.framework */; };
+		B189FB012146852600A9D88B /* TGHeaderFooterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B189FAE62146852600A9D88B /* TGHeaderFooterViewController.m */; };
+		B189FB022146852600A9D88B /* SectionExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B189FAE82146852600A9D88B /* SectionExampleViewController.m */; };
+		B189FB032146852600A9D88B /* TGTextCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = B189FAE92146852600A9D88B /* TGTextCollectionReusableView.m */; };
+		B189FB042146852600A9D88B /* TGImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B189FAEC2146852600A9D88B /* TGImageModel.m */; };
+		B189FB052146852600A9D88B /* TGImageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B189FAED2146852600A9D88B /* TGImageCollectionViewCell.m */; };
+		B189FB062146852600A9D88B /* TGFooterComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = B189FAEE2146852600A9D88B /* TGFooterComponent.m */; };
+		B189FB072146852600A9D88B /* TGHeaderComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = B189FAF12146852600A9D88B /* TGHeaderComponent.m */; };
+		B189FB082146852600A9D88B /* TGImagesComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = B189FAF22146852600A9D88B /* TGImagesComponent.m */; };
+		B189FB092146852600A9D88B /* TGTitleCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B189FAF82146852600A9D88B /* TGTitleCollectionViewCell.m */; };
+		B189FB0A2146852600A9D88B /* TGTitleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B189FAF92146852600A9D88B /* TGTitleModel.m */; };
+		B189FB0B2146852600A9D88B /* TGTitlesComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = B189FAFC2146852600A9D88B /* TGTitlesComponent.m */; };
+		B189FB0C2146852600A9D88B /* ExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B189FAFF2146852600A9D88B /* ExampleViewController.m */; };
+		B189FB0D2146852600A9D88B /* TGTextComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = B189FB002146852600A9D88B /* TGTextComponent.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,12 +50,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0104341C8403A507DCDCC8FC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		0104341C8403A507DCDCC8FC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		32A5582EE92CA68D04935D06 /* Pods-DDComponentsKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDComponentsKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-DDComponentsKit_Example/Pods-DDComponentsKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		39567F5565C7A297D4BB24E9 /* DDComponentsKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DDComponentsKit.podspec; path = ../DDComponentsKit.podspec; sourceTree = "<group>"; };
+		39567F5565C7A297D4BB24E9 /* DDComponentsKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DDComponentsKit.podspec; path = ../DDComponentsKit.podspec; sourceTree = "<group>"; };
 		3D180364943F179BF0D07CC9 /* Pods-DDComponentsKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDComponentsKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DDComponentsKit_Tests/Pods-DDComponentsKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3FDDCD85B42B19D9A25691E2 /* Pods_DDComponentsKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DDComponentsKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4C2C20927E276CA802927833 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4C2C20927E276CA802927833 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		520ABC8BAE3091BE50405E0E /* Pods-DDComponentsKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDComponentsKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DDComponentsKit_Tests/Pods-DDComponentsKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* DDComponentsKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DDComponentsKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -66,6 +79,32 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9EF235CC976F8622B4EBFB9D /* Pods_DDComponentsKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DDComponentsKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B189FAE52146852600A9D88B /* TGHeaderFooterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGHeaderFooterViewController.h; sourceTree = "<group>"; };
+		B189FAE62146852600A9D88B /* TGHeaderFooterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGHeaderFooterViewController.m; sourceTree = "<group>"; };
+		B189FAE82146852600A9D88B /* SectionExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionExampleViewController.m; sourceTree = "<group>"; };
+		B189FAE92146852600A9D88B /* TGTextCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGTextCollectionReusableView.m; sourceTree = "<group>"; };
+		B189FAEA2146852600A9D88B /* TGImagesComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGImagesComponent.h; sourceTree = "<group>"; };
+		B189FAEB2146852600A9D88B /* TGHeaderComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGHeaderComponent.h; sourceTree = "<group>"; };
+		B189FAEC2146852600A9D88B /* TGImageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGImageModel.m; sourceTree = "<group>"; };
+		B189FAED2146852600A9D88B /* TGImageCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGImageCollectionViewCell.m; sourceTree = "<group>"; };
+		B189FAEE2146852600A9D88B /* TGFooterComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGFooterComponent.m; sourceTree = "<group>"; };
+		B189FAEF2146852600A9D88B /* SectionExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionExampleViewController.h; sourceTree = "<group>"; };
+		B189FAF02146852600A9D88B /* TGImageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGImageModel.h; sourceTree = "<group>"; };
+		B189FAF12146852600A9D88B /* TGHeaderComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGHeaderComponent.m; sourceTree = "<group>"; };
+		B189FAF22146852600A9D88B /* TGImagesComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGImagesComponent.m; sourceTree = "<group>"; };
+		B189FAF32146852600A9D88B /* TGTextCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGTextCollectionReusableView.h; sourceTree = "<group>"; };
+		B189FAF42146852600A9D88B /* TGFooterComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGFooterComponent.h; sourceTree = "<group>"; };
+		B189FAF52146852600A9D88B /* TGImageCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGImageCollectionViewCell.h; sourceTree = "<group>"; };
+		B189FAF72146852600A9D88B /* TGTitlesComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGTitlesComponent.h; sourceTree = "<group>"; };
+		B189FAF82146852600A9D88B /* TGTitleCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGTitleCollectionViewCell.m; sourceTree = "<group>"; };
+		B189FAF92146852600A9D88B /* TGTitleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGTitleModel.m; sourceTree = "<group>"; };
+		B189FAFA2146852600A9D88B /* ExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleViewController.h; sourceTree = "<group>"; };
+		B189FAFB2146852600A9D88B /* TGTextComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGTextComponent.h; sourceTree = "<group>"; };
+		B189FAFC2146852600A9D88B /* TGTitlesComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGTitlesComponent.m; sourceTree = "<group>"; };
+		B189FAFD2146852600A9D88B /* TGTitleCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGTitleCollectionViewCell.h; sourceTree = "<group>"; };
+		B189FAFE2146852600A9D88B /* TGTitleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGTitleModel.h; sourceTree = "<group>"; };
+		B189FAFF2146852600A9D88B /* ExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleViewController.m; sourceTree = "<group>"; };
+		B189FB002146852600A9D88B /* TGTextComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGTextComponent.m; sourceTree = "<group>"; };
 		C3F84D0A7CA89DD0C16AC0DE /* Pods-DDComponentsKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDComponentsKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DDComponentsKit_Example/Pods-DDComponentsKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -132,6 +171,9 @@
 		6003F593195388D20070C39A /* Example for DDComponentsKit */ = {
 			isa = PBXGroup;
 			children = (
+				B189FAE42146852600A9D88B /* HeaderFooter */,
+				B189FAE72146852600A9D88B /* Sections */,
+				B189FAF62146852600A9D88B /* SimpleExample */,
 				6003F59C195388D20070C39A /* DNAppDelegate.h */,
 				6003F59D195388D20070C39A /* DNAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -183,6 +225,53 @@
 				4C2C20927E276CA802927833 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		B189FAE42146852600A9D88B /* HeaderFooter */ = {
+			isa = PBXGroup;
+			children = (
+				B189FAE52146852600A9D88B /* TGHeaderFooterViewController.h */,
+				B189FAE62146852600A9D88B /* TGHeaderFooterViewController.m */,
+			);
+			path = HeaderFooter;
+			sourceTree = "<group>";
+		};
+		B189FAE72146852600A9D88B /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				B189FAE82146852600A9D88B /* SectionExampleViewController.m */,
+				B189FAE92146852600A9D88B /* TGTextCollectionReusableView.m */,
+				B189FAEA2146852600A9D88B /* TGImagesComponent.h */,
+				B189FAEB2146852600A9D88B /* TGHeaderComponent.h */,
+				B189FAEC2146852600A9D88B /* TGImageModel.m */,
+				B189FAED2146852600A9D88B /* TGImageCollectionViewCell.m */,
+				B189FAEE2146852600A9D88B /* TGFooterComponent.m */,
+				B189FAEF2146852600A9D88B /* SectionExampleViewController.h */,
+				B189FAF02146852600A9D88B /* TGImageModel.h */,
+				B189FAF12146852600A9D88B /* TGHeaderComponent.m */,
+				B189FAF22146852600A9D88B /* TGImagesComponent.m */,
+				B189FAF32146852600A9D88B /* TGTextCollectionReusableView.h */,
+				B189FAF42146852600A9D88B /* TGFooterComponent.h */,
+				B189FAF52146852600A9D88B /* TGImageCollectionViewCell.h */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		B189FAF62146852600A9D88B /* SimpleExample */ = {
+			isa = PBXGroup;
+			children = (
+				B189FAF72146852600A9D88B /* TGTitlesComponent.h */,
+				B189FAF82146852600A9D88B /* TGTitleCollectionViewCell.m */,
+				B189FAF92146852600A9D88B /* TGTitleModel.m */,
+				B189FAFA2146852600A9D88B /* ExampleViewController.h */,
+				B189FAFB2146852600A9D88B /* TGTextComponent.h */,
+				B189FAFC2146852600A9D88B /* TGTitlesComponent.m */,
+				B189FAFD2146852600A9D88B /* TGTitleCollectionViewCell.h */,
+				B189FAFE2146852600A9D88B /* TGTitleModel.h */,
+				B189FAFF2146852600A9D88B /* ExampleViewController.m */,
+				B189FB002146852600A9D88B /* TGTextComponent.m */,
+			);
+			path = SimpleExample;
 			sourceTree = "<group>";
 		};
 		D82DDA62C0D8D44D874B3803 /* Pods */ = {
@@ -403,9 +492,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B189FB022146852600A9D88B /* SectionExampleViewController.m in Sources */,
+				B189FB072146852600A9D88B /* TGHeaderComponent.m in Sources */,
+				B189FB092146852600A9D88B /* TGTitleCollectionViewCell.m in Sources */,
 				6003F59E195388D20070C39A /* DNAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* DNViewController.m in Sources */,
+				B189FB0B2146852600A9D88B /* TGTitlesComponent.m in Sources */,
+				B189FB052146852600A9D88B /* TGImageCollectionViewCell.m in Sources */,
+				B189FB032146852600A9D88B /* TGTextCollectionReusableView.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				B189FB012146852600A9D88B /* TGHeaderFooterViewController.m in Sources */,
+				B189FB0A2146852600A9D88B /* TGTitleModel.m in Sources */,
+				B189FB042146852600A9D88B /* TGImageModel.m in Sources */,
+				B189FB0C2146852600A9D88B /* ExampleViewController.m in Sources */,
+				B189FB062146852600A9D88B /* TGFooterComponent.m in Sources */,
+				B189FB082146852600A9D88B /* TGImagesComponent.m in Sources */,
+				B189FB0D2146852600A9D88B /* TGTextComponent.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

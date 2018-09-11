@@ -1,0 +1,16 @@
+PODS:
+  - DDComponentsKit (0.1.0)
+
+DEPENDENCIES:
+  - DDComponentsKit (from `../`)
+
+EXTERNAL SOURCES:
+  DDComponentsKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  DDComponentsKit: ffe65352fa0baf7c1247f721878c2714cc8c37a9
+
+PODFILE CHECKSUM: 1fe1a77c2431bbf1c275641732ea83998ce3e8d8
+
+COCOAPODS: 1.4.0

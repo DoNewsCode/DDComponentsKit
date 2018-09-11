@@ -7,6 +7,7 @@
 //
 
 #import "DNViewController.h"
+#import "TGHeaderFooterViewController.h"
 
 @interface DNViewController ()
 
@@ -18,6 +19,13 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+
+
+}
+- (IBAction)btnClick:(UIButton *)sender {
+    NSLog(@"####");
+    TGHeaderFooterViewController *vc = [[TGHeaderFooterViewController alloc] init];
+    [self.navigationController pushViewController: vc animated:YES];
 }
 
 - (void)didReceiveMemoryWarning

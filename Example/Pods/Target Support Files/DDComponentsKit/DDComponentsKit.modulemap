@@ -1,0 +1,6 @@
+framework module DDComponentsKit {
+  umbrella header "DDComponentsKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
