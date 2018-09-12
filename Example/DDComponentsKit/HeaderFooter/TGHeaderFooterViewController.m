@@ -62,7 +62,6 @@
     imagesComponent.images = self.imageModels;
     
     self.rootComponent.subComponents = @[titlesComponent, imagesComponent, textComponent];
-    
     [self.collectionView reloadData];
     
 }
