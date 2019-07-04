@@ -1,16 +1,16 @@
 PODS:
-  - DDComponentsKit (0.1.0)
+  - DDComponentsKit (0.1.1)
 
 DEPENDENCIES:
   - DDComponentsKit (from `../`)
 
 EXTERNAL SOURCES:
   DDComponentsKit:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  DDComponentsKit: ffe65352fa0baf7c1247f721878c2714cc8c37a9
+  DDComponentsKit: 8b486316d505721b30a88d34a27f8de48dfd0f17
 
 PODFILE CHECKSUM: 1fe1a77c2431bbf1c275641732ea83998ce3e8d8
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.5.3
